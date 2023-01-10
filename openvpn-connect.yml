@@ -1,3 +1,5 @@
+# Connects the OpenVPN Connect app to the specified profile
+
 service: notify.mobile_app_pixel_5
 data:
   message: "command_activity"
