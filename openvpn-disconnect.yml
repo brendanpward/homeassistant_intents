@@ -1,3 +1,5 @@
+# Disconnects the OpenVPN Connect app from whatever VPN it's connected to
+
 service: notify.mobile_app_pixel_5
 data:
   message: "command_activity"
