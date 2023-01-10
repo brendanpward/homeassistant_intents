@@ -1,0 +1,8 @@
+service: notify.mobile_app_pixel_5
+data:
+  message: "command_activity"
+  data:
+    intent_package_name: "net.openvpn.openvpn"
+    intent_action: "net.openvpn.openvpn.DISCONNECT"
+    intent_extras: "net.openvpn.openvpn.STOP:TRUE"
+    intent_class_name: "net.openvpn.unified.MainActivity"
