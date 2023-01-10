@@ -1,0 +1,8 @@
+service: notify.mobile_app_pixel_5
+data:
+  message: "command_activity"
+  data:
+    intent_package_name: "net.openvpn.openvpn"
+    intent_action: "android.intent.action.VIEW"
+    intent_extras: "net.openvpn.openvpn.AUTOSTART_PROFILE_NAME:PC {profile name},net.openvpn.openvpn.AUTOCONNECT:True"
+    intent_class_name: "net.openvpn.unified.MainActivity"
