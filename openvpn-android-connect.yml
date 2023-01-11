@@ -1,10 +1,10 @@
 # Connect to OpenVPN Android using the specified {Profile Name}
 
 service: notify.{mobile device}
-  data:
-    message: command_activity
-      data:
-        intent_package_name: de.blinkt.openvpn
-        intent_action: android.intent.action.MAIN
-        intent_extras: de.blinkt.openvpn.shortcutProfileName:{Profile Name}
-        intent_class_name: de.blinkt.openvpn.LaunchVPN
+data:
+  message: command_activity
+    data:
+      intent_package_name: de.blinkt.openvpn
+      intent_action: android.intent.action.MAIN
+      intent_extras: de.blinkt.openvpn.shortcutProfileName:{Profile Name}
+      intent_class_name: de.blinkt.openvpn.LaunchVPN
