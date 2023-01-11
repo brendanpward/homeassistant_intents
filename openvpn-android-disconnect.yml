@@ -1,0 +1,10 @@
+# Disconnect from the specified {VPN Profile} using OpenVPN Android
+
+service: notify.{device}
+data:
+  message: command_activity
+    data:
+      intent_package_name: de.blinkt.openvpn
+      intent_action: android.intent.action.MAIN
+      intent_extras: de.blinkt.openvpn.shortcutProfileName:{VPN Profile}
+      intent_class_name: de.blinkt.openvpn.api.DisconnectVPN
