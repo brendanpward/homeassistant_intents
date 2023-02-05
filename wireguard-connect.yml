@@ -1,0 +1,9 @@
+# Connect to Wireguard using the specified {Profile Name}
+
+service: notify.{mobile device}
+data:
+  message: command_activity
+    data:
+      intent_package_name: com.wireguard.android
+      intent_action: com.wireguard.android.action.SET_TUNNEL_UP
+      intent_extras: com.wireguard.android.tunnel:{Profile Name}
