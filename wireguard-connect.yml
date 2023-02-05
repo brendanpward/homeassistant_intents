@@ -1,4 +1,4 @@
-# Connect to Wireguard using the specified {Profile Name}
+# Connect to Wireguard using the specified {Profile Name}.  This intent is currently not working.  This is likely due to a permissions error.
 
 service: notify.{mobile device}
 data:
